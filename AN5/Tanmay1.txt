@@ -1,0 +1,25 @@
+1) sudo yum install python3
+2) python3 --version
+3) touch main.py -> nano main.py
+4) python main.py
+
+
+Commands:
+Console-sign-in url
+https://891376919218.signin.aws.amazon.com/console
+
+username
+satish-project
+
+password
+Work.with.@741
+
+1) Launch EC2 instance.
+2) Amazon Linux AMI
+3) t2.micro
+4)  Create a new key pair: MyKeyPair
+5) Download it
+6) 
+
+ssh -i 'c:\Users\username\.ssh\MyKeyPair.pem' ec2-user@{IP_Address}
+

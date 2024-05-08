@@ -1,0 +1,11 @@
+1) Google Cloud SDK run as administrator
+2) gcloud init
+3) py google-cloud-sdk\bin\dev_appserver.py <path>
+
+4) Open 
+http://localhost:8080
+http://localhost:8000
+
+
+
+

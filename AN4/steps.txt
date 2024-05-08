@@ -1,0 +1,42 @@
+1) Download the Oracle Virtual Box:
+    https://bit.ly/38C6baX
+
+2) Download the VMDK file
+    https://drive.google.com/file/d/1sJ1llAWL8KlpNZfCZR26sjaILp6n0BrD/view?usp=sharing
+
+3) Open Oracle Virtual Box
+
+4) Create two VM's:
+
+    i) New-> 
+        name: VM1
+        Type: Linux
+        Version: Ubuntu 64 bit
+        
+        Next
+        Next
+        Select Use an Existing Virtual Hard Disk file:
+            Open the VMDK file
+        FInish
+    
+    ii) repeat the same for VM2
+
+5) Select NAT Network for the virtual box in tools
+
+6) select Nat Network for both VMs individually
+
+7) Let the two VM's Open
+
+LOGIn: vagrant
+Password: vagrant
+
+8) ifconfig: to check ip address of both VM
+
+9) ls 
+10) touch tanmay.txt
+11) ls 
+12) nano tanmay.txt
+13) ctrl+s  ctrl+x
+14) scp tanmay.txt vagrant@10.0.2.4:/home/vagrant           
+15) ls on other virtual machine
+           
