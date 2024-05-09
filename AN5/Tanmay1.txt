@@ -5,14 +5,7 @@
 
 
 Commands:
-Console-sign-in url
-https://891376919218.signin.aws.amazon.com/console
 
-username
-satish-project
-
-password
-Work.with.@741
 
 1) Launch EC2 instance.
 2) Amazon Linux AMI
